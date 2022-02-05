@@ -1,0 +1,179 @@
+body
+{
+    font-family: 'Rammetto One', cursive;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#blockpage
+{
+    background-color: #D2FBF8;
+    overflow: hidden;
+    
+}
+.bleu
+{
+    background-color: #1D88B7;
+}
+#top
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+
+#titre
+{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-family: 'Ramaraja', serif;
+
+
+} 
+
+#logo
+{
+    margin-top: 5%;
+
+}
+.navbar__links
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 1% 5% 1%;
+    font-size: 40px;
+    color: whitesmoke;
+    background-color: #1D88B7 ;
+    margin-top: 0%;
+    list-style-type:none;
+    font-family: 'Red Rose', cursive;
+}
+.navbar__link{
+    display: inline;
+    padding: 0 10px;
+}
+.navbar__link:hover{
+    color: #1D88B7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    transition: all 0.4s ease-out;
+    
+}
+
+
+#INFO
+{
+    display: flex;
+    font-size: 45px;
+    text-align: center;
+}
+#selfie
+{
+    flex: 50%;
+}
+
+#slogan
+{
+    color: white ;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 100px;
+
+
+}
+
+#PRODUIT
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+#PRODUIT ul
+{
+    padding-top: 60px;
+    margin-bottom:70px;
+}
+
+#source 
+{
+    display: flex;
+    justify-content: space-around ;
+}
+#provenance
+{
+    font-size: 20px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
+
+#val
+{
+    font-size: 15px;
+}
+
+#ING
+{
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+#Blé p
+{
+    padding: 20px 40px 20px 40px;
+    font-size: 18px;
+    
+}
+
+#Chocolat
+{
+    padding: 20px 40px 20px 40px;
+    font-size: 18px;
+}
+
+#Vanille
+{
+    padding: 20px 40px 0px 40px;
+    font-size: 18px;
+}
+#lien
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+.blé{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.chocolat{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.vanille{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+}
